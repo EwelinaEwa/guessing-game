@@ -12,10 +12,10 @@
         console.log(guessedNumber)
 
         if (secretNumber == guessedNumber) {
-            console.log(`Awesome! You number ${guessedNumber} was correct. You can be named many things, hungry not being one of them.`)
+            document.getElementById("result").innerHTML = `Awesome! Your number ${guessedNumber} was correct. You can be named many things, hungry not being one of them.`
         }
         else {
-            console.log(`Bummer... You guessed ${guessedNumber} and the secret number was ${secretNumber}.`)
+            document.getElementById("result").innerHTML = `Bummer... You guessed ${guessedNumber} and the secret number was ${secretNumber}.`
         }
     })
 

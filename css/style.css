@@ -36,3 +36,9 @@ body {
     border-style: solid;
     border-radius: 5%;
 }
+
+#result {
+    font-size: 30px;
+    margin: 30px;
+    color: #CE1212;
+}
