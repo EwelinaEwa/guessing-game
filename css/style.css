@@ -16,7 +16,7 @@ body {
     font-size: 30px;
 }
 
-#secretNumber {
+#guessNumber {
     border-color: #222831;
     border-style: solid;
     margin: 40px;
@@ -27,7 +27,7 @@ body {
     border-radius: 5%;
 }
 
-.guessButton {
+#guessButton {
     color: #222831;
     font-weight: bold;
     background-color: #FFD369;
