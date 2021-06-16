@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Guessing game</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<h1>The secret number is generated.</h1>
-<label for="secretNumber">Choose a number between 1 and 15: </label>
+<h1 class="heading">The secret number is generated.</h1>
+<label for="secretNumber" class="guessLabel">Choose a number between 1 and 15: </label>
+<br>
 <input type="number" name="secretNumber" id="secretNumber">
-<button>Guess</button>
+<br>
+<button class="guessButton">Guess</button>
 
 
 <script src="js/script.js"></script>

@@ -1,0 +1,38 @@
+body {
+    background-color: #FFD369;
+    text-align: center;
+    padding-top: 10%;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #222831;
+}
+
+.heading {
+    font-size: 50px;
+    margin: 40px;
+}
+
+.guessLabel {
+    font-size: 30px;
+}
+
+#secretNumber {
+    border-color: #222831;
+    border-style: solid;
+    margin: 40px;
+    background-color: #EEEEEE;
+    color: #222831;
+    font-size: 30px;
+    width: 50px;
+    border-radius: 5%;
+}
+
+.guessButton {
+    color: #222831;
+    font-weight: bold;
+    background-color: #FFD369;
+    border-color: #222831;;
+    font-size: 40px;
+    border-style: solid;
+    border-radius: 5%;
+}
