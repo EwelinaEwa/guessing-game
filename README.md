@@ -1,0 +1,1 @@
+Purpose of the game is to guess the right number, which is randomly generated. The max number is equal to the number of course participants.s
